@@ -14,4 +14,5 @@ gaianet --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/
 gaianet start
 source ~/checker_tg/venv/bin/activate
 pip install -r requirements.txt
+gaianet info
 #python3 gaia_bot.py url
