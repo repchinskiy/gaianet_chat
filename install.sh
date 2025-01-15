@@ -10,7 +10,7 @@ sed -i 's/8080/8383/g' ~/gaianet/config.json
 sed -i 's/8080/8383/g' ~/gaianet/gaia-frp/frpc.toml
 sed -i 's/8080/8383/g' ~/gaianet/dashboard/config_pub.json
 gaianet start
-sleep 5
+sleep 15
 gaianet stop
 gaianet --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
 gaianet start
