@@ -8,5 +8,6 @@ sed -i 's/8080/8383/g' ~/gaianet/config.json
 sed -i 's/8080/8383/g' ~/gaianet/gaia-frp/frpc.toml
 sed -i 's/8080/8383/g' ~/gaianet/dashboard/config_pub.json
 gaianet start
-pip install requirements.txt
-#python3 gaia_bot.py
+source ~/checker_tg/venv/bin/activate
+pip install -r requirements.txt
+#python3 gaia_bot.py url

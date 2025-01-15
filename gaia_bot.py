@@ -1,10 +1,10 @@
 import aiohttp
 import asyncio
+import sys
 import random
 
 # URL API
 #url = "https://0x5f1ed5ce1dea66812a33bc63a9e5af2f0163a8a2.gaia.domains/v1/chat/completions"
-url = ""
 
 # Заголовки запроса
 headers = {
