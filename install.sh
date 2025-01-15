@@ -1,7 +1,10 @@
 #!/bin/bash
 apt install curl
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
-source ~/.bashrc
+sleep 1
+source /root/.bashrc
+sleep 1
+source /root/.bashrc
 sleep 1
 gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
 sudo ufw allow 8383
